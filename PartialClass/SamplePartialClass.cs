@@ -1,0 +1,20 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PartialClass
+{
+  public partial  class SamplePartialClass
+    {
+        partial void SamplePartialMethod();
+
+        public void publicMethod()
+        {
+            Console.WriteLine("public metho invoked");
+            SamplePartialMethod();
+        }
+
+    }
+}

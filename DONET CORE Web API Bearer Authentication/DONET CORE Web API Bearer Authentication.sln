@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.128
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DONET CORE Web API Bearer Authentication", "DONET CORE Web API Bearer Authentication.csproj", "{42DCCC81-F369-48EF-9690-1BE8A6555F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureClient", "..\SecureClient\SecureClient.csproj", "{49AB4B9E-C766-46B7-B79A-3AF34AC16DFB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{42DCCC81-F369-48EF-9690-1BE8A6555F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DCCC81-F369-48EF-9690-1BE8A6555F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DCCC81-F369-48EF-9690-1BE8A6555F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DCCC81-F369-48EF-9690-1BE8A6555F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49AB4B9E-C766-46B7-B79A-3AF34AC16DFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49AB4B9E-C766-46B7-B79A-3AF34AC16DFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49AB4B9E-C766-46B7-B79A-3AF34AC16DFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49AB4B9E-C766-46B7-B79A-3AF34AC16DFB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0CC52585-733D-4480-8B4D-F4D87249A050}
+	EndGlobalSection
+EndGlobal
